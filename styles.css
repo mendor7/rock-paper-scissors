@@ -1,0 +1,31 @@
+body {
+    background: grey;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.scoresPlayer {
+    color: green;
+}
+.scoresComputer {
+    color: red;
+}
+
+.rockButton, .paperButton, .scissorsButton {
+    padding: 8px 8px;
+}
